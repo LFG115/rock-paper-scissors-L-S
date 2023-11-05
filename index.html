@@ -11,21 +11,45 @@
 </head>
 
 <body>
+    <div>
+    <h1 id="gameTitle">Rock - Papper - Scissors - Lizard - Spock</h1>
+    </div>
 
-    <h1>Rock - Papper - Scissors - Lizard - Spock</h1>
+    <div id="gameTallyBoard">
 
-    <div id="gameDiv">
-        <h2 class="gameText" id="user">Player:</h2>
-        <h2 class="gameText" id="CPU">Computer:</h2>
-        <h2 class="gameText" id="result">Result:</h2>
+      <div id="players">
+        <h2 class="gameText" id="userText">YOU:</h2>
+        <h2 class="gameText" id="cpuText">COMPUTER:</h2>
+      </div>
+      <div id="score">
+        <h2 class="gameText" id="winScore">WINS:</h2>
+        <h2 class="gameText" id="loseScore">LOSES:</h2>
+      </div>
+
     </div>
 
     <div id="weaponChoice">
-        <button class="choiceBtn">Rock</button>
-        <button class="choiceBtn">Papper</button>
-        <button class="choiceBtn">Scissors</button>
-        <button class="choiceBtn">Lizard</button>
-        <button class="choiceBtn">Spock</button>
+        <button class="choiceBtn">ROCK</button>
+        <button class="choiceBtn">PAPPER</button>
+        <button class="choiceBtn">SCISSORS</button>
+        <button class="choiceBtn">LIZARD</button>
+        <button class="choiceBtn">SPOCK</button>
+    </div>
+
+    <h3>RULES</h3>
+
+    <div id="rules">
+         <p>
+            A player (You!) must choose between one of the five options to try and beat the computer!
+            
+            Rock beats scissors and lizard, 
+            Paper beats rock and spock, 
+            Scissors beats paper and lizard, 
+            lizard beats spock and paper, 
+            spock beats scissors and rock.
+         </p>
+         <img src="/assets/images/RockPaperScissorsLizardSpock.jpg">
+    </div>
 
 
 
@@ -38,8 +62,7 @@
 
 
 
+<script src="assets/js/script.js"></script>
 
-
-        <script src="assets/js/script.js"></script>
 </body>
 </html>
