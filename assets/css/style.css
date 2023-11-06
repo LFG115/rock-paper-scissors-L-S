@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
+
+/* Global style */
+body {
+    background-color: white;
+    color: #445361;
+    text-align: center;
+}
+
+/* Title section */
+#gameTitle {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+/* Game picture (breakdown of the rules) */
+#rpsls-img {
+    height: 180px;
+    width: 180px;
+}
+
+#gameTallyBoard {
+    border: 3px solid;
+    margin-bottom: 8px;
+}
+
+#weaponChoice {
+    margin: 10px;
+    padding: 2px;
+}
+
+.choiceBtn {
+    background-color:#445361;
+    color: yellow;
+    display: flexbox;
+    justify-content: space-around;
+}
