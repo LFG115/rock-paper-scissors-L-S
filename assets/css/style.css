@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
 
+/* Page set */
+* {
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* Global style */
 body {
     background-color: white;
