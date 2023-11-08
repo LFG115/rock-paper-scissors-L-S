@@ -11,21 +11,25 @@
 </head>
 
 <body>
-    <div id="header">
-        <h1 id="gameTitle">Rock-Papper-Scissors-Lizard-Spock Web Game</h1>
-    </div>
 
-    <img id="rpsls-img"src="/assets/images/RockPaperScissorsLizardSpock.jpg">
+    <div id="header">
+        <h1 id="gameTitle">Rock-Papper-Scissors-Lizard-Spock <i class="fa-regular fa-hand-spock" style="color: #000000;"></i> Game</h1>
+    </div>
 
     <div id="gameTallyBoard">
 
-      <div id="players">
-        <h2 class="gameText" id="userText">YOU:</h2>
-        <h2 class="gameText" id="cpuText">COMPUTER:</h2>
+      <div id="player">
+        <h2 class="gameText" id="userText">Player:</h2>
+        <h2 class="gameText" id="winScore">Wins:</h2>
       </div>
-      <div id="score">
-        <h2 class="gameText" id="winScore">WINS:</h2>
-        <h2 class="gameText" id="loseScore">LOSES:</h2>
+
+      <div>
+        <h2 class="gameScore" id="drawScore">Draw:</h2>
+      </div>
+
+      <div id="computer">
+        <h2 class="gameScore" id="computerText">Computer:</h2>
+        <h2 class="gameScore" id="winScore">Wins:</h2>
       </div>
 
     </div>
@@ -38,10 +42,13 @@
         <button class="choiceBtn">SPOCK</button>
     </div>
 
-    <h3>RULES</h3>
+    <img id="rpsls-img" src="/assets/images/RockPaperScissorsLizardSpock.jpg">
 
     <div id="rules">
-         <p>
+
+        <h3>RULES</h3>
+
+        <p>
             A player (You!) must choose between one of the five options to try and beat the computer!
             
             <strong>ROCK</strong> beats scissors and lizard, 
@@ -51,7 +58,8 @@
             <strong>SPOCK</strong> beats scissors and rock.
 
             Good Luck!
-         </p>
+        </p>
+
     </div>
 
 
@@ -65,6 +73,7 @@
 
 
 
+<script src="https://kit.fontawesome.com/20bebd6373.js" crossorigin="anonymous"></script>
 <script src="assets/js/script.js"></script>
 
 </body>

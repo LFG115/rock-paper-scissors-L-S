@@ -2,44 +2,83 @@
 
 /* Page set */
 * {
-    padding: 2px;
+    padding: 0px;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Global style */
+/* General styles */
 body {
     background-color: white;
-    color: #445361;
+    color: black;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
 }
 
 /* Title section */
 #gameTitle {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
+    padding: 5px;
 }
 
 /* Game picture (breakdown of the rules) */
 #rpsls-img {
     height: 180px;
     width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 
 #gameTallyBoard {
     border: 3px solid;
     margin-bottom: 8px;
+    background-color: #68b6ba;
+    padding: 10px;
+}
+
+#player {
+    border: 3px solid;
+    padding: 2px;
+    margin: 2px;
+    background-color: green;
+}
+
+#drawScore {
+    border: 3px solid;
+    padding: 2px;
+    margin: 2px;
+}
+
+#computer {
+    border: 3px solid;
+    padding: 2px;
+    margin: 2px;
+    background-color: red;
 }
 
 #weaponChoice {
-    margin: 10px;
-    padding: 2px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .choiceBtn {
-    background-color:#445361;
-    color: yellow;
-    display: flexbox;
-    justify-content: space-around;
+    background-color:#68b6ba;
+    color: black;
+    font-size: 10px;
+    padding: 3px;
+    justify-content: center;
+    border-radius: 20%;
+    margin: 2px;
+}
+
+#rules {
+    background-color: #68b6ba;
+    border: 3px solid;
+    padding: 10px;
 }
