@@ -39,26 +39,26 @@ body {
     border: 3px solid;
     margin-bottom: 8px;
     background-color: #68b6ba;
-    padding: 10px;
+    padding: 15px;
 }
 
 #player {
     border: 3px solid;
-    padding: 2px;
-    margin: 2px;
+    padding: 3px;
+    margin: 3px;
     background-color: green;
 }
 
 #drawScore {
     border: 3px solid;
-    padding: 2px;
-    margin: 2px;
+    padding: 3px;
+    margin: 3px;
 }
 
 #computer {
     border: 3px solid;
-    padding: 2px;
-    margin: 2px;
+    padding: 3px;
+    margin: 3px;
     background-color: red;
 }
 
@@ -70,8 +70,9 @@ body {
 .choiceBtn {
     background-color:#68b6ba;
     color: black;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 10px;
-    padding: 3px;
+    padding: 2px;
     justify-content: center;
     border-radius: 20%;
     margin: 2px;
@@ -81,4 +82,5 @@ body {
     background-color: #68b6ba;
     border: 3px solid;
     padding: 10px;
+    font-size: 14px;
 }
