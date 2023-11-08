@@ -24,6 +24,9 @@ body {
     font-size: 30px;
     padding: 5px;
     margin: 5px;
+    background-color: #68b6ba;
+    border: 3px solid;
+    width: fit-content;
 }
 
 .start {
@@ -41,14 +44,24 @@ body {
     border-radius: 20%;
     margin: 5px;
 }
+#battle-ground {
+    background-color: white;
+    width: fit-content;
+    height: 210px;
+}
 
 #gameTallyBoard {
     border: 3px solid;
     margin-bottom: 8px;
     background-color: #68b6ba;
     padding: 15px;
-    padding-bottom: 150px;
     display: flex;
+    margin: 5px;
+}
+
+span {
+    font-size: 15px;
+    padding: 1px;
 }
 
 #player {
@@ -60,7 +73,7 @@ body {
     background-color: green;
 }
 
-#drawScore {
+#draw {
     font-size: 12px;
     padding: 3px;
     width: 35%;
@@ -88,6 +101,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     justify-content: center;
+
 }
 
 .choiceBtn {
@@ -106,4 +120,5 @@ body {
     border: 3px solid;
     padding: 10px;
     font-size: 14px;
+    margin: 5px;
 }

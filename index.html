@@ -19,47 +19,51 @@
     <div id="start">
         <button class="Btn">Play Game</button>
     </div>
-
-    <div id="gameTallyBoard">
-
-      <div id="player">
-        <h2 class="gameText" id="userText">Player Score:</h2>
-      </div>
-
-      <div>
-        <h2 class="gameScore" id="drawScore">Draw:</h2>
-      </div>
-
-      <div id="computer">
-        <h2 class="gameScore" id="computerText">Computer Score:</h2>
-      </div>
-
-    </div>
-
+  <section id="game-area">
     <div id="weaponChoice">
-
+    
         <button aria-label="rock" data-type="0" class="choiceBtn">ROCK</button>
         <button aria-label="rock" data-type="1" class="choiceBtn">PAPPER</button>
         <button aria-label="rock" data-type="2" class="choiceBtn">SCISSORS</button>
         <button aria-label="rock" data-type="3" class="choiceBtn">LIZARD</button>
         <button aria-label="rock" data-type="4" class="choiceBtn">SPOCK</button>
-
+    
     </div>
+
     <div id="fontImg">
-    <i class="fa-regular fa-hand-back-fist" style="color: #000000;"></i>
-    <i class="fa-regular fa-hand" style="color: #000000;"></i>
-    <i class="fa-regular fa-hand-scissors" style="color: #000000;"></i>
-    <i class="fa-regular fa-hand-lizard" style="color: #000000;"></i>
-    <i class="fa-regular fa-hand-spock" style="color: #000000;"></i>
-    </div>
 
+        <i class="fa-regular fa-hand-back-fist" style="color: #000000;"></i>
+        <i class="fa-regular fa-hand" style="color: #000000;"></i>
+        <i class="fa-regular fa-hand-scissors" style="color: #000000;"></i>
+        <i class="fa-regular fa-hand-lizard" style="color: #000000;"></i>
+        <i class="fa-regular fa-hand-spock" style="color: #000000;"></i>
+
+    </div>
+    <div id="battle-ground">
+    </div>
+    <div id="gameTallyBoard">
+
+        <p class="message"></p>
+
+      <div id="player">
+        <h2 class="won">Player Score:<span id="P-score"> 0</span></h2>
+      </div>
+
+        <h2 class="draw">Draw: <span id="D-score"> 0</span></h2>
+
+      <div id="computer">
+        <h2 class="lost">Computer Score:<span id="C-score"> 0</span></h2>
+      </div>
+
+    </div>
+  </section>
     <div id="rules">
 
         <h3>RULES</h3>
 
         <p>
             A player (You!) must choose between one of the five options to try and beat the computer!
-            
+
             <strong>ROCK</strong> beats scissors and lizard, 
             <strong>PAPPER</strong> beats rock and spock, 
             <strong>SCISSORS</strong> beats paper and lizard, 
