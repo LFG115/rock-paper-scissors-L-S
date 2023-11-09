@@ -14,10 +14,6 @@ let choices = ['rock', 'paper', 'scissor', 'lizard', 'spock'];
 // index guide - 0   -    1    -    2     -    3    -   4
 let startButton = document.getElementById("start");
 
-startButton.addEventListener("click", function () {
-    start = 1;
-    document.getElementById("start").style.display = "none";
-})
 
 for (let button of buttons) {
     button.addEventListener('click', function () {
@@ -88,4 +84,19 @@ function getResult(var1, var2) {
         resultMessage.innerHTML = "Spock vaporizes Rock, you Won!";
         winner();
     }
+}
+
+/** start game function to be called when player presses button referenced in for loop,
+ * the player area is updated with playerChoice.
+ * Generates a random number between 0-4 and links choices to array, 
+ * calls getResult() function*/
+function startGame(playerChoice) {
+    player.innerHTML = `<p>You:</p> <br><br> <img alt="${choices[playerChoice]}" src="assets/images/${choices[playerChoice]}.png">`;
+
+    let computerChoice = Math.floor(Math.random() * choices.length);  // choices.length allows for more button choices
+    computer.innerHTML = `<p>Computer:</p> <br><br> <img alt="${choices[computerChoice]}" src="assets/images/${choices[computerChoice]}.png">`;
+
+    getResult(choices[playerChoice], choices[computerChoice]);
+
+
 }

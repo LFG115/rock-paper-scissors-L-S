@@ -64,6 +64,13 @@ span {
     padding: 1px;
 }
 
+img {
+    width: 30%;
+    height: auto;
+    display: block;
+    padding-left: 10%;
+}
+
 #player {
     font-size: 10px;
     border: 3px solid;
