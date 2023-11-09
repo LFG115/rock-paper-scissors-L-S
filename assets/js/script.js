@@ -51,5 +51,41 @@ function getResult(var1, var2) {
     } else if (var1 === choices[3] && var2 === choices[0]) {
         resultMessage.innerHTML = "Rock crushes Lizard, you Lost!";
         loser();
+    } else if (var1 === choices[4] && var2 === choices[3]) {
+        resultMessage.innerHTML = "Lizard poisons Spock, you Lost!";
+        loser();
+    } else if (var1 === choices[3] && var2 === choices[4]) {
+        resultMessage.innerHTML = "Lizard poisons Spock, you Won!";
+        winner();
+    } else if (var1 === choices[2] && var2 === choices[4]) {
+        resultMessage.innerHTML = "Spock smashes Scissors, you Lost!";
+        loser();
+    } else if (var1 === choices[4] && var2 === choices[2]) {
+        resultMessage.innerHTML = "Spock smashes Scissors, you Won!";
+        winner();
+    } else if (var1 === choices[3] && var2 === choices[2]) {
+        resultMessage.innerHTML = "Scissors cuts Lizard, you Lost!";
+        loser();
+    } else if (var1 === choices[2] && var2 === choices[3]) {
+        resultMessage.innerHTML = "Scissors cuts Lizard, you Won!";
+        winner();
+    } else if (var1 === choices[1] && var2 === choices[3]) {
+        resultMessage.innerHTML = "Lizard eats Paper, you Lost!";
+        loser();
+    } else if (var1 === choices[3] && var2 === choices[1]) {
+        resultMessage.innerHTML = "Lizard eats Paper, you Won!";
+        winner();
+    } else if (var1 === choices[4] && var2 === choices[1]) {
+        resultMessage.innerHTML = "Paper disproves Spock, you Lost!";
+        loser();
+    } else if (var1 === choices[1] && var2 === choices[4]) {
+        resultMessage.innerHTML = "Paper disproves Spock, you Won!";
+        winner();
+    } else if (var1 === choices[0] && var2 === choices[4]) {
+        resultMessage.innerHTML = "Spock vaporizes Rock, you Lost!";
+        loser();
+    } else if (var1 === choices[4] && var2 === choices[0]) {
+        resultMessage.innerHTML = "Spock vaporizes Rock, you Won!";
+        winner();
     }
 }
