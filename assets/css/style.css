@@ -33,7 +33,7 @@ body {
 
 #weaponChoice {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .Btn {
@@ -52,6 +52,7 @@ body {
     color: black;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 10px;
+    cursor: pointer;
     padding: 3px;
     justify-content: center;
     border-radius: 20%;
@@ -130,4 +131,72 @@ span {
     padding: 10px;
     font-size: 14px;
     margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    #gameTitle {
+        font-size: 40px;
+    }
+    
+    /* Game area */
+    
+    #weaponChoice {
+        margin-top: 10px;
+    }
+
+    .Btn {
+        margin-top: 20px;
+    }
+    
+    .choiceBtn {
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    #battle-ground {
+           width: 100%;
+           height: 400px;
+           padding-top: 20px;
+    }
+
+    #P-area {
+        margin-top: 20px;
+    }
+    
+    #P-area>img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #C-area {
+        margin-top: 10px;
+    }
+
+    #C-area>img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    #player {
+    }
+    
+    span {
+            
+    }
+    
+    #draw {
+            
+    }
+    
+    #computer {
+           
+    }
+    
+    #gameTallyBoard {
+        
+    }
+
+    #rules {
+
+    }
 }
