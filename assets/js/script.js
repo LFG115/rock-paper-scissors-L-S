@@ -86,30 +86,35 @@ function getResult(var1, var2) {
     }
 }
 
-/** start game function to be called when player presses button referenced in for loop,
- * the player area is updated with playerChoice.
+/** Start game function to be called when player presses button
+ * the player area is updated with playerChoice and game message in correspondence to choice.
  * Get random number between 0-4 and links to array.
  */
 
 function startGame(playerChoice) {
-    player.innerHTML = `<p>You:</p> <br><br> <img alt="${choices[playerChoice]}" src="assets/images/${choices[playerChoice]}.png">`;
+    player.innerHTML = `<p><strong><u>You:</u></strong></p> <br> 
+    <img alt="${choices[playerChoice]}" src="assets/images/${choices[playerChoice]}.png">`;
 
-    let computerChoice = Math.floor(Math.random() * choices.length);  // choices.length allows for more button choices
-    computer.innerHTML = `<p>Computer:</p> <br><br> <img alt="${choices[computerChoice]}" src="assets/images/${choices[computerChoice]}.png">`;
+    // choices.length allows for more button choices
+    let computerChoice = Math.floor(Math.random() * choices.length); 
+    computer.innerHTML = `<p><strong><u>Computer:</u></strong></p> <br> 
+    <img alt="${choices[computerChoice]}" src="assets/images/${choices[computerChoice]}.png">`;
 
     //  calls getResult() function*/
     getResult(choices[playerChoice], choices[computerChoice]);
 }
 
-/** when called adds 1 to playerscore */
+/** Adds 1 to playerscore */
 function winner() {
     document.getElementById('P-score').innerText = ++playerScore;
 }
-/** when called adds 1 to computerscore */
-function loser() {
-    document.getElementById('C-score').innerText = ++computerScore;
-}
-/** when called adds 1 to drawscore */
+
+/** Adds 1 to drawscore */
 function draw() {
     document.getElementById('D-score').innerText = ++drawScore;
+}
+
+/** Adds 1 to computerscore */
+function loser() {
+    document.getElementById('C-score').innerText = ++computerScore;
 }

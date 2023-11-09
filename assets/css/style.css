@@ -22,14 +22,16 @@ body {
 /* Title section */
 #gameTitle {
     font-size: 30px;
+    text-transform: uppercase;
     padding: 5px;
     margin: 5px;
     background-color: #68b6ba;
     border: 3px solid;
     width: fit-content;
 }
+/* Game area */
 
-.start {
+#weaponChoice {
     display: flex;
     justify-content: space-between;
 }
@@ -44,37 +46,43 @@ body {
     border-radius: 20%;
     margin: 5px;
 }
+
+.choiceBtn {
+    background-color: #68b6ba;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    padding: 3px;
+    justify-content: center;
+    border-radius: 20%;
+    margin: 2px;
+}
+
 #battle-ground {
     background-color: white;
     width: fit-content;
-    height: 210px;
-}
-
-#gameTallyBoard {
-    border: 3px solid;
-    margin-bottom: 8px;
-    background-color: #68b6ba;
-    padding: 15px;
-    display: flex;
-    margin: 5px;
-}
-
-span {
-    font-size: 15px;
-    padding: 1px;
-}
-
-#battle-ground {
-    font-size: 4vw;
+    height: 240px;
+    font-size: 20px;
     display: block;
-}
-
-img {
-    width: 30%;
-    height: auto;
-    display: block;
-    padding-left: 10%;
     justify-content: center;
+}
+
+#P-area {
+    padding: 0px;
+}
+
+#P-area > img {
+    height: 50px;
+    width: 50px;
+}
+
+#C-area {
+    padding: 0px;
+}
+
+#C-area > img {
+    height: 50px;
+    width: 50px;
 }
 
 #player {
@@ -84,6 +92,11 @@ img {
     margin: 3px;
     width: 35%;
     background-color: green;
+}
+
+span {
+    font-size: 15px;
+    padding: 1px;
 }
 
 #draw {
@@ -102,30 +115,13 @@ img {
     background-color: red;
 }
 
-#weaponChoice {
+#gameTallyBoard {
+    border: 3px solid;
+    margin-bottom: 8px;
+    background-color: #68b6ba;
+    padding: 15px;
     display: flex;
-    justify-content: space-between;
-}
-
-#fontImg > i {
-    font-size: 130%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: center;
-
-}
-
-.choiceBtn {
-    background-color:#68b6ba;
-    color: black;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 10px;
-    padding: 3px;
-    justify-content: center;
-    border-radius: 20%;
-    margin: 2px;
+    margin: 5px;
 }
 
 #rules {
