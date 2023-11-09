@@ -27,7 +27,8 @@ body {
     margin: 5px;
     background-color: #68b6ba;
     border: 3px solid;
-    width: fit-content;
+    justify-content: center;
+    justify-content: space-between;
 }
 /* Game area */
 
@@ -123,6 +124,8 @@ span {
     padding: 15px;
     display: flex;
     margin: 5px;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 #rules {
@@ -137,9 +140,9 @@ span {
     #gameTitle {
         font-size: 40px;
     }
-    
+
     /* Game area */
-    
+
     #weaponChoice {
         margin-top: 10px;
     }
@@ -162,7 +165,7 @@ span {
     #P-area {
         margin-top: 20px;
     }
-    
+
     #P-area>img {
         height: 100px;
         width: 100px;
@@ -176,27 +179,26 @@ span {
         height: 100px;
         width: 100px;
     }
-    
+
     #player {
+        padding: 8px;
+        font-size: 15px;
     }
     
     span {
-            
+        font-size: 20px;
     }
     
     #draw {
-            
+        font-size: 20px; 
     }
     
     #computer {
-           
-    }
-    
-    #gameTallyBoard {
-        
+        padding: 8px;
+        font-size: 15px;
     }
 
     #rules {
-
+        font-size: 20px;
     }
 }

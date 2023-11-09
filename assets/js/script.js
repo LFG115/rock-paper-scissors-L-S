@@ -97,6 +97,7 @@ function startGame(playerChoice) {
 
     // choices.length allows for more button choices
     let computerChoice = Math.floor(Math.random() * choices.length); 
+    
     computer.innerHTML = `<p><strong><u>Computer:</u></strong></p> <br> 
     <img alt="${choices[computerChoice]}" src="assets/images/${choices[computerChoice]}.png">`;
 
