@@ -30,11 +30,12 @@ body {
     justify-content: center;
     justify-content: space-between;
 }
+
 /* Game area */
 
 #weaponChoice {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .Btn {
@@ -62,29 +63,34 @@ body {
 
 #battle-ground {
     background-color: white;
-    width: fit-content;
+    width: 100%;
     height: 240px;
     font-size: 20px;
     display: block;
-    justify-content: center;
 }
 
 #P-area {
     padding: 0px;
+    margin-top: 10px;
+    justify-content: center;
 }
 
-#P-area > img {
+#P-area>img {
     height: 50px;
     width: 50px;
+    justify-content: center;
 }
 
 #C-area {
     padding: 0px;
+    margin-top: 10px;
+    justify-content: center;
 }
 
-#C-area > img {
+#C-area>img {
     height: 50px;
     width: 50px;
+    justify-content: center;
 }
 
 #player {
@@ -128,6 +134,13 @@ span {
     justify-content: space-between;
 }
 
+.M-img {
+    margin-top: 12px;
+    width: fit-content;
+    height: 200px;
+    left: 30px;
+}
+
 #rules {
     background-color: #68b6ba;
     border: 3px solid;
@@ -136,6 +149,7 @@ span {
     margin: 5px;
 }
 
+/* mediaQ for tablets and larger */
 @media screen and (min-width: 768px) {
     #gameTitle {
         font-size: 40px;
@@ -150,16 +164,16 @@ span {
     .Btn {
         margin-top: 20px;
     }
-    
+
     .choiceBtn {
         font-size: 18px;
         padding: 10px;
     }
-    
+
     #battle-ground {
-           width: 100%;
-           height: 400px;
-           padding-top: 20px;
+        width: 100%;
+        height: 400px;
+        padding-top: 20px;
     }
 
     #P-area {
@@ -184,15 +198,15 @@ span {
         padding: 8px;
         font-size: 15px;
     }
-    
+
     span {
         font-size: 20px;
     }
-    
+
     #draw {
-        font-size: 20px; 
+        font-size: 20px;
     }
-    
+
     #computer {
         padding: 8px;
         font-size: 15px;
