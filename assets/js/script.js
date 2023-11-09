@@ -88,15 +88,28 @@ function getResult(var1, var2) {
 
 /** start game function to be called when player presses button referenced in for loop,
  * the player area is updated with playerChoice.
- * Generates a random number between 0-4 and links choices to array, 
- * calls getResult() function*/
+ * Get random number between 0-4 and links to array.
+ */
+
 function startGame(playerChoice) {
     player.innerHTML = `<p>You:</p> <br><br> <img alt="${choices[playerChoice]}" src="assets/images/${choices[playerChoice]}.png">`;
 
     let computerChoice = Math.floor(Math.random() * choices.length);  // choices.length allows for more button choices
     computer.innerHTML = `<p>Computer:</p> <br><br> <img alt="${choices[computerChoice]}" src="assets/images/${choices[computerChoice]}.png">`;
 
+    //  calls getResult() function*/
     getResult(choices[playerChoice], choices[computerChoice]);
+}
 
-
+/** when called adds 1 to playerscore */
+function winner() {
+    document.getElementById('P-score').innerText = ++playerScore;
+}
+/** when called adds 1 to computerscore */
+function loser() {
+    document.getElementById('C-score').innerText = ++computerScore;
+}
+/** when called adds 1 to drawscore */
+function draw() {
+    document.getElementById('D-score').innerText = ++drawScore;
 }

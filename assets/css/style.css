@@ -64,11 +64,17 @@ span {
     padding: 1px;
 }
 
+#battle-ground {
+    font-size: 4vw;
+    display: block;
+}
+
 img {
     width: 30%;
     height: auto;
     display: block;
     padding-left: 10%;
+    justify-content: center;
 }
 
 #player {
