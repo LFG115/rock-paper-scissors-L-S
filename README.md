@@ -68,7 +68,9 @@
 ### Features to add
 
 - When there is time I would like to add some more cool and iteresting features,
-  such as sound effects/animationsand maybe even add 2 more options. e.g plastic bag / boot
+  such as sound effects/animations and maybe even add 2 more options. e.g plastic bag / boot.
+
+- Also would like to add a"Leave" button to end the game.
   
 ---
 
@@ -83,3 +85,48 @@
 
 ---
 
+### Testing
+
+- I have tested playing this game on different browsers: Chrome & Safari.
+
+- I can confirm that the game results are always correct.
+
+- I can confirm the header, gamearea, score area and the rules area are all readable and easy enough to understand.
+  
+- I can confirm that all colours and fonts are easy to read and are accessible by running it through devtools.
+  ![lighthouse-img](assets/images/A2.png)
+
+- I can confirm that this project is responsive, looks good and works on all screen sizes with mediaQ.
+
+### Validator testing
+
+#### HTML
+
+- No errors or warnings were found when using the official W3C validator.
+
+#### CSS
+
+- No errors or warnings were found when using the official W3C (Jigsaw) validator.
+
+#### JS
+
+- When I placed my JS work into the validator that was given to me I had warnings.
+- 11 - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+- I did my JS in a different validator and it came out with no warninngs or errors.
+  ![other-validator-img](assets/images/A8.png)
+
+### Bugs
+
+#### unfixed
+
+- I am aware of some uneven parts in the score board area,
+  on mobile devices where some more styles could be done to tidy up the text.
+
+#### fixed
+
+- The main bugs I had to fix were to do with image cache in the rules section, and the colour transitions making sure they worked,
+  and could read well.
+
+### Deploymeant
+
+The website was deployed to GitHub pages and is accessed by this link: [HERE](https://lfg115.github.io/rock-paper-scissors-L-S/) 
