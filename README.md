@@ -75,11 +75,14 @@
 
 ### Wireframe
 
+ ![wireframe-img](assets/images/wireframe.drawn.jpg)
 
+- I have drafted sections and content on a paper, I have developed the actual content by employing the following layout programs:
 
-- I have drafted sections and content on a paper sheet and then I have developed the actual content by employing the following layout stratgies:
+- Custom CSS
+- Flexbox
 
-Custom 
+---
 
 ### Features to add
 
@@ -131,7 +134,10 @@ Custom
 
 - When I placed my JS work into the validator that was given to me I had warnings.
 - 11 - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-- I did my JS in a different validator and it came out with no warninngs or errors.
+- On speaking to tutor assistance and them putting the JS through the validator them self,
+  they seem to think it was accepable.
+
+- I did put my JS in a different validator as a second opinion and it came out with no warninngs or errors.
 
   ![other-validator-img](assets/images/back-up.js.screen.png)
 
