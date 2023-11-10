@@ -98,6 +98,8 @@
 
 - I can confirm that this project is responsive, looks good and works on all screen sizes with mediaQ.
 
+---
+
 ### Validator testing
 
 #### HTML
@@ -115,6 +117,8 @@
 - I did my JS in a different validator and it came out with no warninngs or errors.
   ![other-validator-img](assets/images/A8.png)
 
+---
+
 ### Bugs
 
 #### unfixed
@@ -127,6 +131,28 @@
 - The main bugs I had to fix were to do with image cache in the rules section, and the colour transitions making sure they worked,
   and could read well.
 
+---
+
 ### Deploymeant
 
-The website was deployed to GitHub pages and is accessed by this link: [HERE](https://lfg115.github.io/rock-paper-scissors-L-S/) 
+- The website was deployed to GitHub pages and is accessed by this link: [HERE](https://lfg115.github.io/rock-paper-scissors-L-S/) 
+
+---
+
+### Credits
+
+#### Content
+
+- StackOverFlow has been a big help to me with getting some sort of understanding with JS.
+- W3schools has been the main source of Information.
+- Some code I used and referred from the [Love-Maths-Project](https://lfg115.github.io/love-maths/)
+- Some code I used and referred from the [Beauty-Cabin-Project](https://lfg115.github.io/beauty-cabin/index.html)
+
+#### Media
+
+- Images taken from google images, wikipidia and slack and free to use.
+  
+##### shoutout
+
+- help from [supersimpledev](https://www.youtube.com/@SuperSimpleDev/videos)
+- help from [fireship](https://www.youtube.com/@Fireship)
