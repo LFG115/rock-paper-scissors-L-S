@@ -2,9 +2,9 @@
 
 - [R-P-S-L-S](https://lfg115.github.io/rock-paper-scissors-L-S/) This amazing fun twist on the simple rock, paper, scissors game  
   and adds new thoughts, decitions and ideas to playing against the computer in this 1 v 1 scenario game.
-  
+
 - This fun interactive game is based on the hit T.V show "The Big Bang Theory". The site is aimed towards fans of the show and
-  people who would would like to play a more complex game of Rock, Paper, Scissors.
+  people of all ages who would would like to play a more complex game of Rock, Paper, Scissors.
 
 - ![multi screen view](assets/images/multi-screen.1.png)
 
