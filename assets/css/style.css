@@ -226,6 +226,11 @@ span {
 
 /* MediaQ laptops and larger (992px and up)*/
 @media screen and (min-width:992px) {
+    #start-title {
+        margin-top: 6px;
+        font-size: 25px;
+    }
+    
     #weaponChoice {
         margin-top: 15px;
     }
@@ -237,5 +242,33 @@ span {
     .choiceBtn {
         font-size: 22px;
         padding: 13px;
+    }
+
+    #P-area {
+        margin-top: 15px;
+    }
+
+    #P-area>img {
+        height: 130px;
+        width: 130px;
+    }
+
+    #C-area>img {
+        height: 130px;
+        width: 130px;
+    }
+    
+    #gameTallyBoard {
+        margin-top: 30px;
+    }
+
+    .M-img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 250px;
+    }
+
+    #rules {
+        font-size: 28px;
     }
 }
