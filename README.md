@@ -15,6 +15,7 @@
 - Sitting at the top of the page in a soft blue colour with a clear font and bold black letters so it makes for easy reading,
   Inside the title is also a favicon that shows the hand gesture made by spock himself.
 - Just underneath the title is an instruction title, to get you on your way into the game as soon as you would like.
+
   ![Title-screen](assets/images/title.screen.2.png)
 
 ---
@@ -25,6 +26,7 @@
   These options are interactive buttons that allow you to make a clear and accurate decision for beating the computer.
 - Once a button "Weapon" has been chosen the game will begin.
   To start another round straight after just repeat with a different choice or the same one.
+
    ![button-options](assets/images/button.screen.3.png)
 
 ---
@@ -36,31 +38,37 @@
   
 - If the user wins there will be a "well done" message, an image of the option the user chose,
   and a small description on how the user won.
+
   ![win-img](assets/images/win.screen.png)
 
 - If the user loses they will be shown a "you lose" message, an image of the option the user chose,
   and a small desciption on how the user lost.
+
   ![lost-img](assets/images/lose.screen.png)
 
 - With a "Draw" outcome the user gets a message stateing that exact information with both the matching images.
+
   ![draw-img](assets/images/draw.screen.png)
 
 ---
+
 ### Score Board
 
 - The score board is set directly underneath the main game to keep a tally of the users wins, 
   the computers wins and the draw score. All this information is set into colour coded boxes which are easy to see
-  and understand.  
+  and understand.
+  
   ![score-board-img](assets/images/score.screen.png)
 
 ---
 
-### Rules 
+### Rules
 
 - The rules section which is located at the bottom of the page inside the footer had a simple,
    clean and clear diagram image showing which option beats eachother.
 - As well as that underneath the image are the rules in a seperate easyto read box in text form.
   Just so the user is perfectly clear and can make an informed descion before clicking there choice.
+
   ![rules-img](assets/images/rules.screen.png)
 
 ---
@@ -94,6 +102,7 @@
 - I can confirm the header, gamearea, score area and the rules area are all readable and easy enough to understand.
   
 - I can confirm that all colours and fonts are easy to read and are accessible by running it through devtools.
+
   ![lighthouse-img](assets/images/lighthouse.screen.png)
 
 - I can confirm that this project is responsive, looks good and works on all screen sizes with mediaQ.
@@ -115,6 +124,7 @@
 - When I placed my JS work into the validator that was given to me I had warnings.
 - 11 - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 - I did my JS in a different validator and it came out with no warninngs or errors.
+
   ![other-validator-img](assets/images/back-up.js.screen.png)
 
 ---
