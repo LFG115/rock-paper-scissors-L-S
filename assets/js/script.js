@@ -12,7 +12,6 @@ let drawScore = parseInt(document.getElementById('D-score').innerText);
 // array links to player and computer choices.
 let choices = ['rock', 'paper', 'scissor', 'lizard', 'spock'];
 // index guide - 0   -    1    -    2     -    3    -   4
-let startButton = document.getElementById("start");
 
 
 for (let button of buttons) {
