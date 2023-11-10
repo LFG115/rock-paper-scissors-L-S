@@ -2,7 +2,6 @@
 let buttons = document.querySelectorAll('button');
 let player = document.getElementById('P-area');
 let computer = document.getElementById('C-area');
-
 let resultMessage = document.getElementsByClassName('message')[0];
 
 let playerScore = parseInt(document.getElementById('P-score').innerText);

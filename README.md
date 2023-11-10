@@ -1,39 +1,115 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock - Paper - Scissors - Lizard - Spock - Game
 
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- This amazing fun twist on the simple rock, paper, scissors game adds new thoughts, decitions and ideas to playing
+  against the computer in this 1 v 1 scenario game. This fun interactive game is based on the hit T.V show "The Big Bang Theory".
+- The site is aimed towards fans of the show and people who would would like to play a more complex game of Rock, Paper, Scissors. 
 
 ---
 
-Happy coding!
+
+## Technology used
+
+- HTML
+- CSS
+- Font Awesome icons
+- Google fonts
+- Favicon.io
+
+---
+
+## Features
+
+### About Page
+
+- ##### Navigation Section
+
+  ---
+  
+#### Bio Section
+
+
+---
+
+#### Treatments Section
+
+---
+
+#### Sign-up Section
+
+---
+
+#### Qualification Section
+
+
+---
+
+#### Response Page
+
+
+---
+
+#### Footer Section
+
+---
+
+#### Testing
+
+- I tested that the website works on chrome and safari.
+- I used devtools and I used [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm the website is responsive.
+- I tested all the links and confirmed that all of them work.
+
+---
+
+### Bugs
+
+## Solved Bugs
+
+  
+## Unsolved Bugs
+
+
+---
+
+#### Validator testing
+
+- ### HTML
+
+  - No errors or warnings were found when using the official W3C validator.
+
+- ### CSS
+  
+  - No errors or warnings were found when using the official W3C (Jigsaw) validator.
+
+- ### JS Checker
+  
+  - 
+
+- ### Accessibility and performance
+
+  - Using lighthouse in devtools I confirmed that the website is performing well.
+    
+
+---
+
+### Deployment
+
+
+---
+
+#### Credits
+
+- ### Content
+
+  - To help me with the sign up buttons and response page I watched some videos of [Simon](https://www.youtube.com/@SuperSimpleDev/featured)
+  
+  - To make help me a bit more understand flex-box [Kevin Powell](https://www.youtube.com/@KevinPowell) on his YouTube channel.
+  
+  - To help with any mediocre problem [Stack Overflow](https://stackoverflow.com/questions) was very helpful with smaller tips and tricks with code
+
+- ### Media
+
+  - All the images for the website were sent to me from the source called the Wife. as it is her own bussiness. [Natasha](https://www.facebook.com/thebeautycabinbynatashajaye)
+  
+  - All people in the pictures were notified and consented to use them.
+
+---
