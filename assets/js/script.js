@@ -45,6 +45,9 @@ function getResult(var1, var2) {
     } else if (var1 === choices[3] && var2 === choices[0]) {
         resultMessage.innerHTML = "Rock crushes Lizard, you Lost!";
         loser();
+    } else if (var1 === choices[0] && var2 === choices[3]) {
+        resultMessage.innerHTML = "Rock crushes Lizard, you Won!";
+        winner();
     } else if (var1 === choices[4] && var2 === choices[3]) {
         resultMessage.innerHTML = "Lizard poisons Spock, you Lost!";
         loser();
