@@ -31,6 +31,12 @@ body {
     justify-content: space-between;
 }
 
+#start-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
 /* Game area */
 
 #weaponChoice {
@@ -181,8 +187,8 @@ span {
     }
 
     #P-area>img {
-        height: 100px;
-        width: 100px;
+        height: 110px;
+        width: 110px;
     }
 
     #C-area {
@@ -190,10 +196,11 @@ span {
     }
 
     #C-area>img {
-        height: 100px;
-        width: 100px;
+        height: 110px;
+        width: 110px;
     }
 
+    /* Score area */
     #player {
         padding: 8px;
         font-size: 15px;
@@ -213,6 +220,22 @@ span {
     }
 
     #rules {
-        font-size: 20px;
+        font-size: 22px;
+    }
+}
+
+/* MediaQ laptops and larger (992px and up)*/
+@media screen and (min-width:992px) {
+    #weaponChoice {
+        margin-top: 15px;
+    }
+    
+    .Btn {
+        margin-top: 25px;
+    }
+    
+    .choiceBtn {
+        font-size: 22px;
+        padding: 13px;
     }
 }
