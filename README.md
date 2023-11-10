@@ -61,16 +61,16 @@
    clean and clear diagram image showing which option beats eachother.
 - As well as that underneath the image are the rules in a seperate easyto read box in text form.
   Just so the user is perfectly clear and can make an informed descion before clicking there choice.
-1[rules-img](assets/images/A7.png)
+  ![rules-img](assets/images/A7.png)
 
+---
 
+### Features to add
 
-
-
-
-
-
-
+- When there is time I would like to add some more cool and iteresting features,
+  such as sound effects/animationsand maybe even add 2 more options. e.g plastic bag / boot
+  
+---
 
 ### Technology used
 
