@@ -73,6 +73,14 @@
 
 ---
 
+### Wireframe
+
+
+
+- I have drafted sections and content on a paper sheet and then I have developed the actual content by employing the following layout stratgies:
+
+Custom 
+
 ### Features to add
 
 - When there is time I would like to add some more cool and iteresting features,
